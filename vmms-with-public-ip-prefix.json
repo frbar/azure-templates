@@ -27,7 +27,7 @@
     },
     "instanceCount": {
       "type": "int",
-      "defaultValue": 5,
+      "defaultValue": 2,
       "metadata": {
         "description": "Number of VM instances (100 or less)."
       },
@@ -43,7 +43,7 @@
     },
     "publicIPPrefixLength": {
       "type": "int",
-      "defaultValue": 30,
+      "defaultValue": 29,
       "metadata": {
         "description": "Length of public IP prefix."
       },
