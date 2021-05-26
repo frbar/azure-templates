@@ -73,15 +73,7 @@
     "imageReference": "[variables('osType')]",
     "ipConfigName": "[concat(parameters('vmssName'), 'ipconfig')]",
     "linuxConfiguration": {
-      "disablePasswordAuthentication": true,
-      "ssh": {
-        "publicKeys": [
-          {
-            "path": "[concat('/home/', parameters('adminUsername'), '/.ssh/authorized_keys')]",
-            "keyData": "[parameters('adminPasswordOrKey')]"
-          }
-        ]
-      }
+      "disablePasswordAuthentication": false
     },
     "loadBalancerName": "[concat(parameters('vmssName'), 'lb')]",
     "natBackendPort": 22,
