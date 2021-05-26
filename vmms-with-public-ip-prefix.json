@@ -43,12 +43,12 @@
     },
     "publicIPPrefixLength": {
       "type": "int",
-      "defaultValue": 8,
+      "defaultValue": 30,
       "metadata": {
         "description": "Length of public IP prefix."
       },
-      "maxValue": 8,
-      "minValue": 8
+      "maxValue": 31,
+      "minValue": 28
     },
     "vmSku": {
       "type": "string",
