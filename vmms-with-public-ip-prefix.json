@@ -230,7 +230,7 @@
         }
       }
     },
-    {
+    /*{
       "type": "Microsoft.Network/publicIPPrefixes",
       "apiVersion": "2020-05-01",
       "name": "[variables('publicIPPrefixName')]",
@@ -243,7 +243,7 @@
         "prefixLength": "[parameters('publicIPPrefixLength')]",
         "publicIPAddressVersion": "IPv4"
       }
-    },
+    },*/
     {
       "type": "Microsoft.Network/virtualNetworks",
       "name": "[variables('virtualNetworkName')]",
